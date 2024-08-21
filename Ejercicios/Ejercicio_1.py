@@ -1,12 +1,10 @@
 
 class Persona():
     # Constructor de Clase
-    def __init__(self, nombre, apellido, edad, altura, peso):
+    def __init__(self, nombre, apellido, edad):
         self.nombre = nombre
         self.apellido = apellido
         self.edad = edad
-        self.altura = altura
-        self.peso = peso
     
         # Métodos
     def hablar(self):
@@ -14,6 +12,9 @@ class Persona():
 
     def caminar(self):
         print(f"{self.nombre} está caminando")
-    
-    def calcular_imc(self):
-        imc = peso/altura**2
+
+persona1 = Persona()
+
+persona1.nombre = "Cristina"
+persona1.apellido = "Torres"
+persona1.edad = 23
