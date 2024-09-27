@@ -10,6 +10,7 @@
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{booktabs}
+\usepackage{listing}
 
 % Tema
 \usetheme{Madrid}
@@ -21,10 +22,11 @@
 
 
 \begin{document}
+	
 	\begin{frame}
 		\titlepage
 	\end{frame}
-
+	
 	\begin{frame}
 		\begin{itemize}
 			\item a
@@ -35,4 +37,21 @@
 			\item Link \url{http://www.google.com/ }
 		\end{itemize}
 	\end{frame}
+	
+	\begin{frame}[fragile]
+		\frametitle{Ejemplo de muestra de Código}
+		\begin{lstlisting}[language=TeX, frame=single]
+	\documentclass{article}
+		\begin{document}
+			Contenido
+	\end{document}
+		\end{lstlisting}
+	\end{frame}
+	
+	\begin{frame}(Formulas Matemáticas Complejas)
+		\begin{equation*}
+			\int_{-\infty}^\infty e^{-x^2} dx =\sqrt{\pi}
+		\end{equation*}
+	\end{frame}
+
 \end{document}
