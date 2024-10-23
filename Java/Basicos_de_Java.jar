@@ -1,0 +1,26 @@
+package holamundo;
+
+public class HolaMundo {
+
+    public static void main(String[] args) {
+        System.out.println("Hola Mundo");
+        
+        int edad = 19;
+        System.out.println(edad);
+        double estatura = 1.75;
+        System.out.println(estatura);
+        long sueldo = 2000000;
+        System.out.println(sueldo);
+        boolean estado = true;
+        System.out.println(estado);
+        char letra = 'A';
+        System.out.println(letra);
+        
+        String texto = "Martin";
+        System.out.println(texto);
+        
+        
+        System.out.println("Mi nombre es: " + texto + ". Mi edad es: " + edad);
+    }
+    
+}
